@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    text-align: center;
+    
+}
+
+
+
+p {
+color: #fffdfa;
+font-size: 200%;
+text-align: center;
+justify-content: space-around;
+
+} 
+
+
+
+#navbar 
+ {
+    height: 30px;
+    background-color: forestgreen;
+    border-color: forestgreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+#navbar a
+{
+font-size: 25px;
+color: black;
+text-decoration: none;
+}
+
+#navbar a:hover
+{
+color: #fffdfa;}
+
+
+
+
+
+@media (max-width: 300px) {
+body {
+color: red;}
+}
+
+
+  
+  
